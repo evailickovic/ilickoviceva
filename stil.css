@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+		font-family: "EvaIlickovic";
+    src: url("EvaIlickovic.ttf");
+	text-align: center;
+	font-size: 80px;
+	color:rgba(150,123,174,1.00);
+	
+	} 
+h2{
+	text-align: center;
+	color:floralwhite;
+	background-color:rgba(150,123,174,1.00);
+	padding: 6px;
+	line-height: 40px;
+	border: 1px #00000;
+	font-size: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+body{
+	background: url("slike/Eva_Ilickovic-POZADINA.jpg")
+}
+p{
+	text-align: center;
+	color:floralwhite;
+	background-color:rgba(150,123,174,1.00);
+	padding: 6px;
+	line-height: 30px;
+	border: 1px #00000;
+	font-size: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+	ul {
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+	li {	display:inline;
+			background-color:rgba(150,123,174,1.00);
+			padding:20px;
+			border: 2px rgba(68,47,87,1.00);
+		}
+	li:active {background-color:rgba(110,90,128,1.00);}
+		
+	li a {	color:floralwhite; 
+			font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+
+
